@@ -16,7 +16,7 @@ function initMap() {
     fields: ["place_id", "geometry", "formatted_address", "name"],
   });
 
-  autocomplete.bindTo("bounds", map);
+  //autocomplete.bindTo("bounds", map);
   map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
 
   const infowindow = new google.maps.InfoWindow();
